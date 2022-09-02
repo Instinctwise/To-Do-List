@@ -3,16 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, 
+  initial-scale=1.0"> <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
   <title>To-Do-list</title>
 </head>
 <body>
   <section class="main-container">
-    <div>
+    <div class="nav">
       <h1>
         Todo
       </h1>
+      <div>
+        <h3>
+          Today 
+          <i class="ri-calendar-todo-line"></i>
+        </h3>
+        <p class="date">
+          17 feb 2022
+        </p>
+      </div>
     </div>
+
+    <hr/>
+    <br/>
+    <div class="add">
+      <form>
+        <input type="text" placeholder="Add a new task" class="add-space">
+      </form>
+      
+      <a href="">
+        <i class="ri-add-fill"></i>
+      </a>
+
+    </div>
+
+    
+      
+    <div class="section3">
+      
+        <form>
+          <input type="checkbox">
+          <label for="">Buy Water</label>
+          <br/>
+          <br/>
+          <input type="checkbox">
+          <label for="">Remove utorrent and install transmission</label>
+          <br/>
+          <br/>
+          <input type="checkbox">
+          <label for="">Update kernel to latest version</label>
+        </form>
+
+    </div>
+    
+      <hr/>
+      <br/>
+      <div class="lastsect">
+
+        <input type="checkbox" checked>
+        <label for="" class="bullet">Remove utorrent and install transmission</label>
+        <br/>
+        <br/>
+        <input type="checkbox" checked>
+        <label for="" class="bullet">Update kernel to latest version</label>
+      </form>
+
+      </div>
   </section>
+
+  <script src="/wise.js"></script>
 </body>
 </html>

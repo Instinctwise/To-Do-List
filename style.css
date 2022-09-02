@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(250, 170, 117);
+  padding: 4rem;
+  width: 60%;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  font-size: 50px;
+}
+.main-container{
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 4px 4px 4px  gray;
+  border-radius: 5px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.add{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.ri-add-fill{
+  color: rgb(240, 248, 255);
+  background: rgb(0, 0, 255);
+  padding: .5rem;
+  margin-left: .5rem;
+}
+.ri-calendar-todo-line{
+  color: rgb(0, 0, 255);
+}
+.add-space{
+  padding: .5rem;
+  width: 500px;
+}
+.section3{
+  margin: 1rem 0;
+}
+.bullet{
+  text-decoration: line-through;
+  color: rgb(128, 128, 128);
+}
